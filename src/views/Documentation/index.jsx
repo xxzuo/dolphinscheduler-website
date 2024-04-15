@@ -55,7 +55,7 @@ const Documentation = () => {
           className="documentation-sider-select"
           defaultValue={params.version}
           options={versions.map((version) => ({
-            label: version,
+            label: version === "3.1.9" ? version + "(" + t('recommend_version') + ")" : version,
             value: version,
           }))}
           onChange={(value) => {

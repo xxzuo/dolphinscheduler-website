@@ -170,5 +170,6 @@
   "keywords_blog": "海豚调度博客,博客,版本发布,技术详解,社区动态,教程,用户案例,海内外活动",
   "keywords_support": "dolphinscheduler 帮助,support,问题,常见问题",
   "keywords_use_case": "dolphinscheduler 用户案例,用户",
-  "keywords_download": "dolphinscheduler 下载,单机部署,伪集群部署,集群部署,k8s,云部署"
+  "keywords_download": "dolphinscheduler 下载,单机部署,伪集群部署,集群部署,k8s,云部署",
+  "recommend_version": "推荐"
 }
