@@ -117,7 +117,7 @@ $ kubectl create namespace dolphinscheduler
 5. Create a fargate configuration file, respectively define the Fargate configuration file associated with the namespace dolphinscheduler and kube-system to specify which pods use Fargate at startup, and then schedule pods on Fargate in the cluster. (Reference: https://docs.aws.amazon.com/zh_cn/eks/latest/userguide/fargate-profile.html)
 6. Publish dolphinscheduler to the namespace of dolphinscheduler
 ```
-$ cd apache-dolphinscheduler-<version>-src/deploy/kubernetes/dolphinscheduler
+$ cd apache-dolphinscheduler-<version>-src/deploy/kubernetes/dolphinscheduler 
 $ helm repo add bitnami https://charts.bitnami.com/bitnami
 $ helm dependency update .
 $ helm install dolphinscheduler . --set image.tag=3.1.2 -n dolphinscheduler --set region=us-east-1 --set vpcId=vpc-xxx
